@@ -19,10 +19,5 @@ boolean - true or false
     boolean hallo_Oliver = true;
     hallo_Oliver = false;
     // hallo_Oliver = "hallo_Oliver";
-    System.out.println(hallo_Oliver);
-
-test
-
-
-
-
+    System.out.println(hallo_Oliver)
+    
