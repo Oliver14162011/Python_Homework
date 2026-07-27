@@ -1,0 +1,25 @@
+Deklarierung
+
+String = Text
+int - Zahlen 
+double - Kommazahlen
+boolean - true or false
+
+//Components of a variable
+// Type + identifier + Value
+
+    //Deklarierung => Type + identifier
+    String myString;
+    //System.out.println(myString); //=> null oder nil
+
+    //Intialisieren Deklarierung + Wert
+    myString = "Sascha";
+    System.out.println(myString);
+
+    boolean hallo_Oliver = true;
+    hallo_Oliver = false;
+    // hallo_Oliver = "hallo_Oliver";
+    System.out.println(hallo_Oliver);
+
+
+
