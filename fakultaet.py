@@ -15,3 +15,9 @@ while counter <=n:
  counter += 1
 print () 
 print("Die Fakultät von " + str(n) + " lautet: " + str(factorial))
+
+result = 1
+factorial = 6
+for i in range(2, factorial + 1):
+ result *= i
+print(result)
