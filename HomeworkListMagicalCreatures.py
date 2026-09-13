@@ -35,16 +35,13 @@ myListAufsteigend = []
 
 for i in range(len(myList)): 
   if i == 0: 
-   myListAufsteigend.append(myList[0])
-  else:
-   for j in range(len(myListAufsteigend)):
+   myListAufsteigend.append(myList[0]) 
+
+  for j in range(len(myListAufsteigend)):
     if myList[i] < myListAufsteigend[j]: #3 < 5
      myListAufsteigend.insert(j, myList[i])
-     break 
-   else:
-    myListAufsteigend.append(myList[i])
-    j+1
-  i+1  
+    break
+ 
 print(myListAufsteigend) 
 #   myListAufsteigend.insert(1,myList) 
 # Absteigend
@@ -53,15 +50,13 @@ myListAbsteigend = []
 for i in range(len(myList)): 
   if i == 0: 
    myListAbsteigend.append(myList[0])
-  else:
+  
    for j in range(len(myListAbsteigend)):
-    if myList[i] > myListAbsteigend[j]: #3 < 5
+    if myList[i] > myListAbsteigend[j]: 
      myListAbsteigend.insert(j, myList[i])
      break 
-   else:
-    myListAbsteigend.append(myList[i])
-    j+1
-  i+1  
+
+ 
 print(myListAbsteigend) 
 
 

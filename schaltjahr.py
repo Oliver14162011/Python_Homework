@@ -4,7 +4,7 @@ if (year % 100 == 0):
  if (year % 400 == 0): 
    leap_year = True
 elif(year % 4 == 0):
-   leap_year = True 
+   leap_year = True  # Konditionen 
 #----------------------------------------------------
 if leap_year:
  print ("Das Jahr " +str(year) +" ist ein Schaltjahr.")
