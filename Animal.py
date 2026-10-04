@@ -1,5 +1,5 @@
 class Animal:
- def __init__(self, name, age, species):
+ def __init__(self, name, age, species): 
   self.name = name
   self.age = age
   self.species = species
@@ -17,13 +17,13 @@ class Animal:
    print("Miau!")
   print()   
 
-Dog1 = Animal("Snoopy",2,"Dog")
-Bird1 = Animal("Woodstock",3,"Bird")
-Cat1 = Animal("Garfield",6,"Cat") 
+dog = Animal("Snoopy",2,"Dog")
+bird = Animal("Woodstock",3,"Bird")
+cat = Animal("Garfield",6,"Cat") 
 
-Dog1.introduce()
-Dog1.makeSound()
-Bird1.introduce()
-Bird1.makeSound()
-Cat1.introduce() 
-Cat1.makeSound() 
+dog.introduce()
+dog.makeSound()
+bird.introduce()
+bird.makeSound()
+cat.introduce() 
+cat.makeSound() 
