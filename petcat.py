@@ -4,11 +4,11 @@ class PetCat:
 
  def __updateMood(self,action):
   if action == "pet":
-   self.set_mood("sleepy")
+   self.setMood("sleepy")
   if action == "feed":
-   self.set_mood("happy") 
+   self.setMood("happy") 
   if action == "ignore":
-   self.set_mood("grumpy")
+   self.setMood("grumpy")
 
  def getMood(self):
   return self.__mood
@@ -19,11 +19,11 @@ class PetCat:
 
  def interact(self,action):
   self.__updateMood(action)
- 
 
+ 
 cat = PetCat("grumpy")
 cat.interact("pet")     
-
+# print(cat.__mood) 
 print(cat.getMood()) 
 
 
